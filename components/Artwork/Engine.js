@@ -42,12 +42,15 @@ export default class Engine {
             });
         };
     }
+
     addComponent(component) {
         this.components.push(component);
     }
+
     clearComponents() {
         this.components = [];
     }
+    
     init() {
         this.clock = new THREE.Clock()
         this.animate = this.update.bind(this)

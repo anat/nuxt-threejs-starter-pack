@@ -15,7 +15,7 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss" scoped>
 .nav {
   position: fixed;
   bottom: 0px;

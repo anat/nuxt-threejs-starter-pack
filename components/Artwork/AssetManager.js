@@ -19,9 +19,7 @@ export default class AssetManager {
     }
 
     loadModels() {
-
         let gltfLoader = new GLTFLoader(this.engine.loadManager);
-
         gltfLoader.load('assets/scene.gltf', (gltf) => {
             const scene = gltf.scene;
             scene.scale.set(80, 80, 80);

@@ -6,6 +6,7 @@ export default class CubeComponent {
         this.engine = engine;
         this.cubes = new THREE.Object3D();
     }
+    
     init() {
         for (let x = -2; x <= 2; x++) {
             for (let y = -2; y <= 2; y++) {

@@ -13,10 +13,11 @@ export default {};
 .header {
   position: fixed;
   background: transparent;
+  padding: 1vw 5vw;
 }
 a {
   color: #aaa;
   font-size: 18px;
-  margin: 20px 20px;
+  padding: 10px 10px;
 }
 </style>

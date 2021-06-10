@@ -1,8 +1,8 @@
 <template>
   <div class="about">
     <h1>About</h1>
-    <span>Here we have basic content page...</span>
-    <p style="white-space: pre-line">
+    <span>Here a basic content page...</span>
+    <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas suscipit consequat sodales. Nullam scelerisque, libero in lacinia pulvinar, enim magna mattis lectus, at mollis mauris enim ut erat. Duis sagittis justo tortor, at blandit arcu ornare sed. Pellentesque at ex ligula. Etiam eu nunc sit amet tortor rhoncus aliquet. Donec venenatis, diam sit amet convallis sollicitudin, augue ante ultrices dolor, et mollis arcu dui id lacus. Proin suscipit rutrum aliquet. Nulla convallis gravida congue. Ut orci ante, mollis efficitur nisi at, mollis rhoncus tortor. Maecenas porta fringilla nisi. Donec nec commodo nunc, vestibulum rhoncus libero. Morbi tincidunt nulla nec elit pharetra convallis ut id nulla. Proin varius sapien sem, eget porttitor lectus congue ac. Integer purus erat, tristique posuere ligula eu, imperdiet luctus felis.
 
 Suspendisse vitae nibh libero. Sed sit amet vehicula risus. Etiam aliquam auctor erat vitae euismod. In convallis magna eget magna ornare pellentesque. Nulla sagittis porttitor maximus. Ut venenatis leo sed diam eleifend, sit amet ullamcorper felis ultrices. Suspendisse rhoncus tempor nibh vel laoreet. Etiam gravida finibus sagittis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed lectus risus, pretium at lorem vitae, pulvinar vestibulum massa. Quisque at diam enim. Maecenas sed dictum lacus, in posuere nulla. Nunc facilisis nisi eu neque tristique, nec commodo magna eleifend.
@@ -26,6 +26,9 @@ export default {};
   height: 100vh;
   h1 {
     font-size: 48px;
+  }
+  p {
+    white-space: pre-line;
   }
 }
 </style>

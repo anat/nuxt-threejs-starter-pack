@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import "../../node_modules/animate.css/animate.min.css";
+
+html,
+body {
+    overscroll-behavior: none;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+.main-button {
+    cursor: pointer;
+    border-radius: 0px;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #222;
+    &:visited,
+    &:active,
+    &:link {
+      color: #fff;
+    }
+    &:hover {
+      background-color: #333;
+      color: #fff;
+    }
+  }

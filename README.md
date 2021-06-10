@@ -1,7 +1,7 @@
 
 # Lightweight Nuxt + Three.js boilerplate
 
-<a href="http://nuxt-threejs-starter-pack.anat.fr/">Demo</a>
+<a href="http://nuxt-threejs-starter-pack.anat.fr/" target="_blank">Demo</a>
   
 13 files (excluding .gitignore, assets and this file)
 

@@ -2,15 +2,14 @@
 # Lightweight Nuxt + Three.js boilerplate
 
 <a href="http://nuxt-threejs-starter-pack.anat.fr/">Demo</a>
+  
+13 files (excluding .gitignore, assets and this file)
 
-Package included : 
-    eventemitter3  
-    tweenjs/tween.js  
-    animate.css  
-    postprocessing  
-
-    
-13 files (excluding .gitignore and this file)
+Package included :  
+- eventemitter3 : Small Event Emitter
+- tweenjs/tween.js : TWEEN for animations
+- animate.css : Small and fancy css animations
+- postprocessing : Postprocessing library for THREE.js
 
 
 # Credits

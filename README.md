@@ -30,12 +30,13 @@
 
 - Project is built on the assessment you need both "classic" web pages combined with pages that includes 3D
 - `/components/Artwork/Engine.js` contains all the basic Three.js logic : Scene, Renderer, Camera management
+- `/components/Artwork/AssetManager.js` is used to load assets in general (Textures, Models etc..)
 - There is a notion of "Component" (Unity 3D way) to separate logic for specific 3D elements :  
 Each component has two methods :  
 `init()` : Called to create the elements inside the component   
 `update()` : Called every frame with context specific code to be executed only by a component   
 You can find an example component here : `/components/Artwork/CubeComponent.js`   
-- File `/components/Artwork/AssetManager.js` is used to load assets in general (Textures, Models etc..)
+
 
 # Credits
 

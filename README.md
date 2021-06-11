@@ -9,10 +9,10 @@
 - Not UI by default, you could add vue-bootstrap, vuetify, vue-material etc...
 
 ## Packages included :  
-- eventemitter3 : Small Event Emitter
-- tweenjs/tween.js : TWEEN for animations
-- animate.css : Small and fancy css animations
-- postprocessing : Postprocessing library for THREE.js
+- eventemitter3 (minified : 1.1KB) : Small Event Emitter
+- tweenjs/tween.js (minified: 3.1KB) : TWEEN for animations
+- animate.css (minified: 5.2KB) : Small and fancy css animations
+- postprocessing (minified: 91.6KB, tree shakable) : Postprocessing library for THREE.js
 
 ## Requirements
 

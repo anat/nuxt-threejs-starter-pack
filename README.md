@@ -62,6 +62,6 @@ You can find an example component here : `/components/Artwork/CubeComponent.js`
 
 ## License
 
-MIT.  
+MIT   
   
 "Forest House" (https://skfb.ly/6QSKT) by peachyroyalty is licensed under Creative Commons Attribution-NonCommercial (http://creativecommons.org/licenses/by-nc/4.0/).

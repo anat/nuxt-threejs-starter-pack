@@ -11,9 +11,9 @@
 - No UI framework added by default, you could add one depending on your needs : vue-bootstrap, vuetify, vue-material
 
 ## Packages included :  
-- eventemitter3 (minified : 1.1KB) : Small Event Emitter
+- eventemitter3 (minified : 1.1KB) : Event Emitter
 - tweenjs/tween.js (minified: 3.1KB) : TWEEN for animations
-- animate.css (minified: 5.2KB) : Small and fancy css animations
+- animate.css (minified: 5.2KB) : Fancy css animations
 - postprocessing (minified: 91.6KB, tree shakable) : Postprocessing library for THREE.js
 
 ## Requirements

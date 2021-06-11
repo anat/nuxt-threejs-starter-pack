@@ -5,9 +5,8 @@
 
 ## Features
 - Only 13 files (excluding .gitignore, assets and this file)
-- Just what you need 
-    - Only small packages are added, if you don't need them, it's simple to erase them
-    - Not over configurated, it's just what you need to start you own project
+- Not another over configurated boilerplate ! It's just what you need to start you own project
+- Only small packages are included, if you don't need them, it's simple to erase them
 - No UI framework added by default, you could add one depending on your needs : vue-bootstrap, vuetify, vue-material
 
 ## Packages included :  

@@ -36,6 +36,28 @@ Each component has two methods :
 `update()` : Called every frame with context specific code to be executed only by a component   
 You can find an example component here : `/components/Artwork/CubeComponent.js`   
 
+## Hierarchy
+    .
+    ├── assets/css/main.scss      # main SCSS file
+    ├── components
+    │   ├── Artwork  
+    │   │   ├── Artwork.vue       # Vue component for 3D content
+    │   │   ├── AssetManager.js   # Class in charge of asset loading
+    │   │   ├── CubeComponent.js  # Example 3D Component with init() & update() methods
+    │   │   ├── Engine.js         # Class in charge of Three.js core features
+    │   │   ├── Nav.js            # Vue component to control 3D scene
+    │   └── Header.vue            # Vue component for all pages Header
+    ├── layouts/default.vue       # Layout shared by all pages
+    ├── pages
+    │   ├── about.vue             # Page for demo "/about" route
+    │   └── index.vue             # Home page
+    ├── static
+    │   ├── assets                # Assets : Models & Textures needed by 3D
+    │   └── images                # Image needed for web pages
+    ├── app.html                  # Skeleton of the page with static loader image
+    ├── nuxt.config.js            # Nuxt.js configuration file
+    └── package.json              # Node configuration file
+
 
 # Credits
 

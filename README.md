@@ -8,7 +8,7 @@
 - Just what you need 
     - Only small packages are added, if you don't need them, it's simple to erase them
     - Not over configurated, it's just what you need to start you own project
-- No UI framework added by default, you could add one depending on your needs : vue-bootstrap, vuetify, vue-material etc...
+- No UI framework added by default, you could add one depending on your needs : vue-bootstrap, vuetify, vue-material
 
 ## Packages included :  
 - eventemitter3 (minified : 1.1KB) : Small Event Emitter

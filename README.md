@@ -4,16 +4,17 @@
 <a href="http://nuxt-threejs-starter-pack.anat.fr/">Demo</a>
 
 ## Features
-- Only 13 files (excluding .gitignore, assets and this file)
-- Not another over configurated boilerplate ! It's just what you need to start you own project
-- Only small packages are included, if you don't need them, it's simple to erase them
-- No UI framework added by default, you could add one depending on your needs : vue-bootstrap, vuetify, vue-material
+- :balloon: Only 13 files (excluding .gitignore, assets and this file)  
+  
+- :place_of_worship: Not another over configurated boilerplate ! It's just what you need to start you own project  
+- :package: Only small packages are included, if you don't need them, it's simple to erase them  
+- :art: No UI framework added by default, you could add one depending on your needs : vue-bootstrap, vuetify, vue-material  
 
 ## Packages included :  
-- eventemitter3 (minified : 1.1KB) : Event Emitter
-- tweenjs/tween.js (minified: 3.1KB) : TWEEN for animations
-- animate.css (minified: 5.2KB) : Fancy css animations
-- postprocessing (minified: 91.6KB, tree shakable) : Postprocessing library for THREE.js
+- `eventemitter3` (minified : 1.1KB) : Event Emitter
+- `tweenjs/tween.js` (minified: 3.1KB) : TWEEN for animations
+- `animate.css` (minified: 5.2KB) : Fancy css animations
+- `postprocessing` (minified: 91.6KB, tree shakable) : Postprocessing library for THREE.js
 
 ## Requirements
 

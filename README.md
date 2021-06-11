@@ -1,12 +1,14 @@
 
 # Lightweight Nuxt + Three.js JAM Stack boilerplate
 
-<a href="http://nuxt-threejs-starter-pack.anat.fr/" target="_blank">Demo</a>
+<a href="http://nuxt-threejs-starter-pack.anat.fr/">Demo</a>
 
 ## Features
 - Only 13 files (excluding .gitignore, assets and this file)
-- Just what you need (Only small packages are added, if you don't need them, it's simple to erase them)
-- Not UI by default, you could add vue-bootstrap, vuetify, vue-material etc...
+- Just what you need 
+    - Only small packages are added, if you don't need them, it's simple to erase them   
+    
+- No UI framework added by default, you could add one depending on your needs : vue-bootstrap, vuetify, vue-material etc...
 
 ## Packages included :  
 - eventemitter3 (minified : 1.1KB) : Small Event Emitter

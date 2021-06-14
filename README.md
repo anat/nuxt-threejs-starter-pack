@@ -59,6 +59,12 @@ You can find an example component here : `/components/Artwork/CubeComponent.js`
     ├── nuxt.config.js            # Nuxt.js configuration file
     └── package.json              # Node configuration file
 
+## Troubleshooting
+Following error "PostCSS received undefined instead of CSS string at new Input"
+Can be resolved with this command :
+```
+npm rebuild node-sass
+```
 
 ## License
 

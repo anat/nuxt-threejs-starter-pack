@@ -29,6 +29,7 @@ export default {};
   }
   p {
     white-space: pre-line;
+    padding-bottom: 5vh;
   }
 }
 </style>

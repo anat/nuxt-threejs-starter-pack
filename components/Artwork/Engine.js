@@ -13,52 +13,45 @@ import CubeComponent from "./CubeComponent";
 export default class Engine {
     constructor() {
         this.components = [];
+
         this.loadManager = new THREE.LoadingManager();
+        this.loadManager.onLoad = this.onAssetsLoaded.bind(this);
 
         this.assets = new AssetManager(this);
         this.assets.load();
-
-
-        this.loadManager.onLoad = () => {
-            // Load default cube component
-            this.cubeComponent = new CubeComponent(this);
-            this.cubeComponent.init();
-            this.addComponent(this.cubeComponent);
-
-            window.EventEmitter.on("showScene", (sceneName) => {
-                // Remove all scene objects
-                for (var i = this.container.children.length - 1; i >= 0; i--) {
-                    let obj = this.container.children[i];
-                    this.container.remove(obj);
-                }
-                if (sceneName == "cubes") {
-                    this.cubeComponent = new CubeComponent(this);
-                    this.cubeComponent.init();
-                    this.addComponent(this.cubeComponent);
-                } else if (sceneName == "forest") {
-                    this.container.add(this.assets.forestHouse);
-                }
-
-            });
-        };
     }
 
-    addComponent(component) {
-        this.components.push(component);
+    onAssetsLoaded() {
+        // Load default cube component
+        this.cubeComponent = new CubeComponent(this);
+        this.cubeComponent.init();
+        this.addComponent(this.cubeComponent);
+
+        window.EventEmitter.on("showScene", (sceneName) => {
+            // Remove all scene objects
+            for (var i = this.container.children.length - 1; i >= 0; i--) {
+                let obj = this.container.children[i];
+                this.container.remove(obj);
+            }
+            if (sceneName == "cubes") {
+                this.cubeComponent = new CubeComponent(this);
+                this.cubeComponent.init();
+                this.addComponent(this.cubeComponent);
+            } else if (sceneName == "forest") {
+                // Just one line of code, we don't need to create a component for that but we could've
+                this.container.add(this.assets.forestHouse);
+            }
+
+        });
     }
 
-    clearComponents() {
-        this.components = [];
-    }
-    
     init() {
         this.clock = new THREE.Clock()
         this.animate = this.update.bind(this)
-        this.camera = new THREE.PerspectiveCamera(
-            30, // fov
+        this.camera = new THREE.PerspectiveCamera(30, // fov 
             window.innerWidth / window.innerHeight, // aspect
-            1, // near
-            3000 // far
+            process.env.three.camera.near,
+            process.env.three.camera.far
         )
         this.camera.position.y = 30;
         this.camera.position.z = 30;
@@ -158,5 +151,13 @@ export default class Engine {
         const dirLight2 = new THREE.DirectionalLight(0x002288);
         dirLight2.position.set(-1, -1, -1);
         this.scene.add(dirLight2);
+    }
+
+    addComponent(component) {
+        this.components.push(component);
+    }
+
+    clearComponents() {
+        this.components = [];
     }
 }

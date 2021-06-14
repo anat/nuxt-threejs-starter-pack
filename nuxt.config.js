@@ -3,7 +3,11 @@ module.exports = {
         // ENV variables
         three: {
             // Background color: false for transparent background
-            background: 0x222222
+            background: 0x222222,
+            camera: {
+                near: 1,
+                far: 3000
+            }
         }
     },
     target: 'static',

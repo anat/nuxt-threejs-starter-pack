@@ -22,8 +22,7 @@ export default {
     }
 
     window.engine = new Engine();
-
-    window.engine.init(this.$refs.canvas);
+    window.engine.init();
 
     this.$refs.canvascontainer.appendChild(window.engine.renderer.domElement);
 

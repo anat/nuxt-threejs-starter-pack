@@ -1,5 +1,5 @@
 
-# Lightweight Nuxt + Three.js JAM Stack boilerplate
+# Lightweight Nuxt + Three.js boilerplate
 
 <a href="http://nuxt-threejs-starter-pack.anat.fr/">Demo</a>
 
